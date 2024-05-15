@@ -1,0 +1,96 @@
+<!-- Thankyou Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_thankyou.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="shopping-cart.png" type="image/x-icon">
+    <title>Grand City Mall Surabaya</title>
+</head>
+<body>
+    <!-- Header & Navbar -->
+    <header>
+        <div class="header_container">
+            <div class="left_header">
+                <div class="left_header_container">
+                    <div class="img">
+                        <img src="shopping-cart.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <h1><span>GRAND</span> CITY</h1>
+                        <p>SURABAYA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right_header">
+                <a href="main.html#home" class="nav_list">HOME</a>
+                <a href="main.html#store" class="nav_list">STORE</a>
+                <a href="#contact" class="nav_list">CONTACT US</a>
+                <a href="feedback.html" class="nav_list">FEEDBACK</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header & Navbar(Responsive) -->
+    <section class="header2">
+        <div class="topnav">
+            <a href="#" class="active"><div class="txt">
+                <div class="logo">
+                    <div class="img">
+                        <img src="shopping-cart.png" alt="">
+                    </div>
+                    <h1>GRAND CITY SURABAYA</h1>
+                </div>
+            </div></a>
+            <div id="myLinks">
+                <a href="main.html#home">HOME</a>
+                <a href="main.html#store">STORE</a>
+                <a href="#contact">CONTACT US</a>
+                <a href="feedback.html">FEEDBACK</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </section>
+
+    <!-- Content -->
+    <section class="content1">
+        <div class="content1_text">
+            <h1>THANK YOU!</h1>
+            <a href="main.html#home">HOME</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer_container">
+            <div class="contact_us">
+                <h1>Contact Us:</h1>
+                <div class="phone"><img src="phone-call.png"><p>(031) 5459000</p></div>
+                <a href="https://www.facebook.com/grandcitysurabaya/photos_stream?tab=photos_albums" target="_blank" class="facebook"><img src="facebook.png"><p>@grandcitysurabaya</p></a>
+                <a href="https://www.instagram.com/grandcitymall/?igshid=YmMyMTA2M2Y=" target="_blank" class="instagram"><img src="instagram.png"><p>@grandcitymall</p></a>
+            </div>
+            <div class="copyright">
+                <p>&copy;2022 <span>Grand City Mall Surabaya.</span> All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
